@@ -9,8 +9,7 @@ const data = {
 
 export default function Home() {
   return (
-    <body className="h-screen w-screen bg-gradient-to-r from-[#F9FAFB] to-[#D2D6DB]">
-    <main>
+    <div className="h-screen w-screen bg-gradient-to-r from-[#F9FAFB] to-[#D2D6DB] flex flex-col">
       <div className="flex flex-col items-center mt-[200px]">
       <Testimonials data={data} /></div>
       <div className="credits" data-gfe-screenshot-exclude="true">
@@ -26,7 +25,6 @@ export default function Home() {
         > Carlo</a
       >.
     </div>
-    </main>
-    </body>
+    </div>
   );
 }
