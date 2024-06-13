@@ -3,7 +3,7 @@ import './style.css';
 
 const TestimonialCard = ({ data } : { data: { name: string, username: string, image: string, description: string } }) => {
     return (
-        <div className="mx-auto w-[340px] h-[233px] flex flex-col p-6 gap-4 border border-solid border-neutral-200 rounded-lg bg-white shadow-m text-neutral-600">
+        <div className="card">
                 <div className="flex items-center gap-4 w-full">
                     <img className="size-12 rounded-[50px] shadow-lg" src={data.image} />
                     <div className="flex flex-col">
