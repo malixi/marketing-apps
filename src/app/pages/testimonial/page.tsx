@@ -10,7 +10,7 @@ const data = {
 
 const TestimonialPage = () => {
   return (
-    <div className="h-screen w-screen bg-gradient-to-r from-[#F9FAFB] to-[#D2D6DB] flex flex-col">
+    <div className="container">
       <div className="flex flex-col items-center mt-[200px]">
       <TestimonialCard data={data} /></div>
       <div className="credits" data-gfe-screenshot-exclude="true">
